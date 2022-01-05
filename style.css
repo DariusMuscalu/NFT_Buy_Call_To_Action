@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Inter:wght@400;700&family=Lexend+Deca&family=Outfit:wght@300;400;600&family=Suez+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bowlby One', Arial, Helvet;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.4em;
+    margin-top: .5em;
+}
+
+button {
+    padding: 1em;
+    border-radius: 2em;
+    min-width: 50px;
+    outline: none;
+    border: none;
+    margin: 1em;
+    background-color: red;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(247, 111, 111);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #777;
+    height: 100vh;
+    background-image: url(./images/poster1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mint-nft {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.content-wrapper {
+    background-color: #171C46;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.text-content h1 {
+    margin-bottom: 1em;
+}
+
+.center-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-quantity {
+    display: flex;
+    justify-content: center;
+}
+
+.quantity-btn {
+    background-color: #ccc;
+    padding: 0;
+    background-color: #171C46;
+    color: #fff;
+    font-size: 2em;
+}
+
+.image-slider img {
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
